@@ -9,12 +9,12 @@ const incremento = parseInt(prompt('Digite o valor do incremento: '))
   } else if (incremento > valorFinal){
     alert('O valor de incremento não pode ser superior ao valor final.')
   }
-  
-document.write(`<p>Contagem: </p>`)
+
+document.write(`Contagem: `)
 for(let i = valorInicial; i <= valorFinal; i+=incremento){
   document.write(`${i}, `)
 }
-document.write(`<p>ACABOU!!!</p>`)
+document.write(`ACABOU!!!`)
 
 // 3. Crie um algoritmo que leia o valor inicial da contagem, o valor final e
 // o incremento, mostrando em seguida todos os valores no intervalo:
