@@ -9,7 +9,8 @@ const incremento = parseInt(prompt('Digite o valor do incremento: '))
   } else if (incremento > valorFinal){
     alert('O valor de incremento não pode ser superior ao valor final.')
   }
-
+  
+document.write(`<p>Contagem: </p>`)
 for(let i = valorInicial; i <= valorFinal; i+=incremento){
   document.write(`${i}, `)
 }
