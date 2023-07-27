@@ -1,3 +1,4 @@
+const nome = prompt('Qual o seu nome?')
 
 
 // 4. Numa promoção exclusiva para o Dia da Mulher, uma loja quer dar
